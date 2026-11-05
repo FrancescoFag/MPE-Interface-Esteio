@@ -411,3 +411,45 @@ a:focus-visible {
 .links-monitoramento a:hover {
   text-decoration: underline;
 }
+.pesquisa {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.pesquisa input,
+.pesquisa button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.pesquisa p {
+  color: inherit;
+}
+.previsao-chuva {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.card-chuva {
+  padding: 15px;
+  background: #ffffff;
+  color: #17324d;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-chuva h3 {
+  font-size: 16px;
+}
+
+.card-chuva strong {
+  display: block;
+  color: #9a3412;
+}

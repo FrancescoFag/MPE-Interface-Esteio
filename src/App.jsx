@@ -2,6 +2,7 @@
 import { useState } from "react";
 import "./App.css";
 import ProdutoCard from "./ProdutoCard";
+import CitySearch from "./CitySearch";
 
 function Header() {
   return (
@@ -13,6 +14,7 @@ function Header() {
           <p>Informação, prevenção e segurança para Esteio/RS</p>
         </div>
       </div>
+      <CitySearch />
     </header>
   );
 }
