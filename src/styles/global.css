@@ -1,0 +1,168 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #172a49;
+}
+
+header {
+  background-color: #069eb3b2;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+main {
+  padding: 40px 20px;
+  min-height: 70vh;
+  text-align: center;
+}
+
+footer {
+  background-color: #25c8fa;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+  header {
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  main {
+    padding: 25px 15px;
+  }
+
+  main h2 {
+    font-size: 22px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 13px;
+  }
+}
+
+/* Estilo dos cartões */
+.alerta-card {
+  background-color: rgb(253, 252, 252);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alerta-card h3 {
+  margin-bottom: 10px;
+  color: #0e7486;
+}
+
+.alerta-card p {
+  margin-bottom: 8px;
+}
+
+/* Cores dos níveis de risco */
+.alerta-card.baixo {
+  border-left: 6px solid #16a34a;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.cards-container .alerta-card {
+  flex: 1 1 250px;
+  max-width: 350px;
+  margin: 0;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Painel climático */
+.painel-clima {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.painel-clima h2 {
+  margin-bottom: 25px;
+}
+
+.clima-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.clima-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clima-card h3 {
+  margin-bottom: 15px;
+}
+
+.clima-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: hwb(246 12% 0% / 0.842);
+}
+
+.cards-container .alerta-card {
+  width: 250px;
+  flex: 0 1 250px;
+  margin: 0;
+}
+
+/* Cabeçalho moderno */
+header {
+  background: linear-gradient(135deg, #74dfdf, #4f7ddf);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+header p {
+  font-size: 17px;
+  opacity: 0.9;
+}
